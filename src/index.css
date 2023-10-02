@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sora !important;
+}
+body {
+  color: #120b48;
+}
+img {
+  border-radius: 0.6em;
+}
