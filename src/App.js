@@ -2,13 +2,14 @@ import { React } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Recorded from "./pages/Recorded";
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:movie-id" element={<Home />} />
+        <Route path="/file/:id" element={<Recorded />} />
       </Routes>
     </>
   );

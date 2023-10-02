@@ -10,3 +10,8 @@ body {
 img {
   border-radius: 0.6em;
 }
+video {
+  width: 550px;
+  height: 300px;
+  border-radius: 2rem;
+}

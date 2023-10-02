@@ -1,7 +1,7 @@
 import React from "react";
-import { Stack, Box, Typography } from "@mui/material";
+
 const Features = () => {
-  return <div>Features</div>;
+  return <div>Features loading..up</div>;
 };
 
 export default Features;

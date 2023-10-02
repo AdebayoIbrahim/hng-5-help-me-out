@@ -50,12 +50,12 @@ const Home = () => {
         <Box>
           <Stack direction="row" gap={1}>
             <Stack direction="column" gap={1}>
-              <img src={lap} width="300px" height="200px" />
-              <img src={lady} width="300px" height="200px" />
+              <img src={lap} width="300px" height="200px" alt="hero-images" />
+              <img src={lady} width="300px" height="200px" alt="hero-images" />
             </Stack>
 
             <Box>
-              <img src={Woman} width="300px" height="400px" />
+              <img src={Woman} width="300px" height="400px" alt="hero-images" />
             </Box>
           </Stack>
         </Box>

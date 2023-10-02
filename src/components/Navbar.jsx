@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, Box, Stack, styled, Typography } from "@mui/material";
+import { AppBar, Toolbar, Stack, styled, Typography } from "@mui/material";
 import Logo from "./logo.png";
 const StyledBar = styled(Toolbar)({
   display: "flex",
